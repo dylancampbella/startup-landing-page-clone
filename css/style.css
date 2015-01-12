@@ -57,8 +57,13 @@ ol, ul {
 	background-color: #fff;
 }
 
-.top-navigation .content {
+.top-navigation > .content {
 	margin-left: 15em;
 	padding: 1em;
 	height: 2.3em;
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	float: right;
 }
