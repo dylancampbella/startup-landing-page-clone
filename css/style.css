@@ -23,28 +23,42 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 	background-color: LightGray;
-	border: 1px solid Chocolate;
 }
+
+div {
+	border: 0.1em solid Chocolate;
+}
+
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+/* END OF RESET */
+/* START OF CUSTOM STYLES */
+
+.content {
+	padding: 0 1em;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+/* NAVIGATION SECTION */
+
+.top-navigation {
+	background-color: #fff;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.top-navigation > .content {
+	width: 60.625em;
+	height: 4.375em;
+	margin: 0 auto;
 }
